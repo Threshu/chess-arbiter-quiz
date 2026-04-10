@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<NuxtRouteAnnouncer />
-		<NuxtWelcome />
+		<!-- <NuxtWelcome /> -->
+		<Button variant="destructive" @click="console.log('test')">Test</Button>
 	</div>
 </template>
