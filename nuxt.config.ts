@@ -2,7 +2,11 @@
 export default defineNuxtConfig({
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
-	modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt"],
+	modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "shadcn-nuxt"],
+	colorMode: {
+		classSuffix: "",
+		storage: "cookie",
+	},
 	shadcn: {
 		prefix: "",
 		componentDir: "components/ui",
