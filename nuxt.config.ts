@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 		"@nuxtjs/color-mode",
 		"@nuxtjs/i18n",
 		"shadcn-nuxt",
+		"@nuxt/eslint",
 	],
 	colorMode: {
 		classSuffix: "",
