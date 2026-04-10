@@ -17,6 +17,4 @@
 
 <script setup lang="ts">
 import { cn } from "./lib/utils";
-
-const classes = cn("bg-red-500 p-3 font-bold text-white");
 </script>
