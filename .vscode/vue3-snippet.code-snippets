@@ -1,0 +1,14 @@
+{
+  "Vue 3 Nuxt Component": {
+    "prefix": "vnuxt",
+    "body": [
+      "<template>",
+      "    $0",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "</script>",
+    ],
+    "description": "Vue 3 Nuxt component with script setup",
+  },
+}
